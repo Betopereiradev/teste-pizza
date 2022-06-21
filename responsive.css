@@ -1,0 +1,12 @@
+@media (max-width: 754px) {
+ header {
+   flex-direction: column-reverse;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+
+   text-align: center;
+
+   margin-top: 50px;
+ }
+}

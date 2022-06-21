@@ -1,0 +1,112 @@
+
+
+.button {
+  background-color:  #EC0000;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  width: auto;
+  padding-inline: 30px;
+  height: 40px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.nav-item a {
+  margin: 10px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  height: 60vh;
+
+  margin-bottom: 100px;
+
+}
+
+
+.text-wrapper h1 {
+  font-size: 72px;
+  margin-bottom: 10px;
+}
+
+.text-wrapper h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+
+.recomendados {
+  height: 100vh;
+}
+
+.recomendado-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+ 
+
+  gap: 40px;
+}
+
+.recomendado {
+  width: 310px;
+  height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+
+  text-align: center;
+
+  border: 1px solid #BDBDBD;
+  border-radius: 180px 180px 30px 30px;
+
+  -webkit-box-shadow: 10px 29px 38px -27px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 29px 38px -27px rgba(0,0,0,0.75);
+box-shadow: 10px 29px 38px -27px rgba(0,0,0,0.75);
+
+}
+
+.recomendado img {
+  margin-left: -15px;
+}
+
+.recomendado h2 {
+  font-size: 24px;
+}
+
+.recomendado p {
+  font-size: 14px;
+  color: #333333;
+}
+
+.recomendado span {
+  font-size: 34px;
+  font-weight: bold;
+  color: #05A84B;
+}
+
+.recomendado select {
+
+  width: 80%;
+  background: none;
+  padding: 9px 16px;
+  border: solid 1px #4F4F4F;
+  border-radius: 25px;
+  outline: 0;
+}
+
+.recomendado button {
+  width: 80%;
+  margin-top: 15px;
+}
+
