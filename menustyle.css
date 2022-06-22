@@ -1,0 +1,40 @@
+.sabores-pizza {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+
+  overflow-y: auto;
+  height: 70vh;
+}
+
+.sabor {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-around;
+
+}
+
+
+
+.escolha-sabor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+
+  
+}
+
+.valor {
+  font-size: 40px;
+  color: rgb(23, 175, 13);
+}
+
+select {
+  border-radius: 8px;
+  background: none;
+  padding: 10px;
+
+  outline: none;
+}
