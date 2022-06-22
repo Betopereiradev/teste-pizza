@@ -5,6 +5,8 @@
 
   overflow-y: auto;
   height: 70vh;
+
+  background-image: url('./img/bg.jpg');
 }
 
 .sabor {
@@ -15,7 +17,20 @@
 
 }
 
+.textos-sabores {
+  cursor: pointer;
+}
 
+.textos-sabores:hover {
+  color: red;
+}
+
+
+.flow a {
+  margin: 0 20px;
+
+  text-align: center;
+}
 
 .escolha-sabor {
   display: flex;
@@ -37,4 +52,8 @@ select {
   padding: 10px;
 
   outline: none;
+}
+
+a:hover{
+  color: red;
 }
